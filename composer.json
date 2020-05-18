@@ -1,0 +1,20 @@
+{
+    "name": "test",
+    "type": "project",
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-pdo": "*",
+        "symfony/http-kernel": "^5.0",
+        "symfony/http-foundation": "^5.0",
+        "symfony/routing": "^5.0",
+        "symfony/dependency-injection": "^5.0",
+        "doctrine/orm": "^2.7",
+        "guzzlehttp/guzzle": "^6.5",
+        "doctrine/migrations": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {"src\\": "src/"}
+    }
+}
